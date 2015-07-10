@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardborn.UI.MetroUI", "Hardborn.UI.MetroUI\Hardborn.UI.MetroUI.csproj", "{70624C7D-14DE-48E0-B6DE-3C97D4B099D5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MetroUI.Shared", "MetroUI.Shared\MetroUI.Shared.shproj", "{43DECD85-7BF0-4F52-80F9-B5270C2F9792}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MetroUI.Shared\MetroUI.Shared.projitems*{43decd85-7bf0-4f52-80f9-b5270c2f9792}*SharedItemsImports = 13
+		MetroUI.Shared\MetroUI.Shared.projitems*{70624c7d-14de-48e0-b6de-3c97d4b099d5}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70624C7D-14DE-48E0-B6DE-3C97D4B099D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70624C7D-14DE-48E0-B6DE-3C97D4B099D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70624C7D-14DE-48E0-B6DE-3C97D4B099D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70624C7D-14DE-48E0-B6DE-3C97D4B099D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
